@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BarangAdapter">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#81B6F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CV_adapter"
+            android:layout_width="360dp"
+            android:layout_height="84dp"
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:id="@+id/txtNama_Brg"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="13dp"
+                android:text="Nama Barang"
+                android:textColor="#81B6F9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtRp"
+                android:layout_width="30dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="43dp"
+                android:text="Rp."
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHarga_Brg"
+                android:layout_width="150dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="43dp"
+                android:text="Harga Barang"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ic_delete"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="312dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/ic_edit"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="10dp"
+                android:text="Edit"
+                android:textColor="#43B648"
+                android:textSize="18sp" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

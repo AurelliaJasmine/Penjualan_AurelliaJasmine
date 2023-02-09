@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#81B6F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="179dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="DESKRIPSI BARANG"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/btnSave"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="344dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_save" />
+
+        <ImageView
+            android:id="@+id/btnUpdate"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="344dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_update" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CV_adapter"
+        android:layout_width="365dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <EditText
+            android:id="@+id/etId_brg"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="Id (4 digit)"
+            android:padding="5dp"
+            android:textColor="#A25959"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etnama_brg"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:hint="Nama Barang"
+            android:padding="5dp"
+            android:textColor="#FFA25959"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etId_brg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etharga_brg"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Rp. Harga Barang"
+            android:padding="5dp"
+            android:textColor="#FFA25959"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etstok_brg"
+            app:layout_constraintTop_toBottomOf="@+id/etnama_brg" />
+
+        <EditText
+            android:id="@+id/etstok_brg"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Stok "
+            android:padding="5dp"
+            android:textColor="#FFA25959"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etId_brg" />
+
+        <ImageView
+            android:id="@+id/btnstok"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_stok"
+            app:layout_constraintBottom_toBottomOf="@+id/etstok_brg"
+            app:layout_constraintEnd_toEndOf="@+id/etstok_brg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/etstok_brg"
+            app:layout_constraintTop_toTopOf="@+id/etstok_brg"
+            app:layout_constraintVertical_bias="0.35" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

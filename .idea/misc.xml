@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/5. Aurellia Jasmine/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_barang_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/5. Aurellia Jasmine/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/5. Aurellia Jasmine/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/5. Aurellia Jasmine/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/background.xml" value="0.1965" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_add.xml" value="0.2015" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_delete.xml" value="0.2015" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_done.xml" value="0.1585" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_edit.xml" value="0.2015" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_save.xml" value="0.2115" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/drawable/ic_stok.xml" value="0.2115" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_barang_adapter.xml" value="0.25" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_edit.xml" value="0.25316455696202533" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/ANDROID JASMINE/Penjualan_AurelliaJasmine/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
